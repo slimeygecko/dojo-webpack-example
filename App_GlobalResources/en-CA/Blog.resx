@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddEditPost" xml:space="preserve">
+    <value>Add / Edit Blog Post</value>
+  </data>
+  <data name="AddTag" xml:space="preserve">
+    <value>Add Tag</value>
+  </data>
+  <data name="ApproveComment" xml:space="preserve">
+    <value>Approve Blog Comment</value>
+  </data>
+  <data name="At" xml:space="preserve">
+    <value>at</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="CityNHoodBlog" xml:space="preserve">
+    <value>City and Neighbourhood Blog</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="CommentDate" xml:space="preserve">
+    <value>Comment submitted on</value>
+  </data>
+  <data name="CommenterEmail" xml:space="preserve">
+    <value>Commenter E-mail</value>
+  </data>
+  <data name="CommenterName" xml:space="preserve">
+    <value>Commenter Name</value>
+  </data>
+  <data name="CommenterURL" xml:space="preserve">
+    <value>Commenter URL</value>
+  </data>
+  <data name="CommentFound" xml:space="preserve">
+    <value>Comment Found</value>
+  </data>
+  <data name="CommentFuzzySearchText" xml:space="preserve">
+    <value>Comment, Name or Title</value>
+  </data>
+  <data name="CommentOn" xml:space="preserve">
+    <value>Comment on</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="CommentsFound" xml:space="preserve">
+    <value>Comments Found</value>
+  </data>
+  <data name="Compose" xml:space="preserve">
+    <value>Compose</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>You are about to submit a post to ${0} blog(s).\nIf this post has been submitted before, this will resubmit the post.</value>
+  </data>
+  <data name="CorpBlog" xml:space="preserve">
+    <value>Century21.ca Blog</value>
+  </data>
+  <data name="CourtesyOf" xml:space="preserve">
+    <value>Courtesy of </value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="DivisionBlog" xml:space="preserve">
+    <value>CENTURY 21 Quebec Blog</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="Drafted" xml:space="preserve">
+    <value>Drafted</value>
+  </data>
+  <data name="err_EnterATag" xml:space="preserve">
+    <value>Please enter a Tag.</value>
+  </data>
+  <data name="err_NoBlogSelected" xml:space="preserve">
+    <value>Please select at least one blog to which your post will be submitted.</value>
+  </data>
+  <data name="err_NoCityNHoodSelected" xml:space="preserve">
+    <value>Please select at least one city and/or neighbourhood.</value>
+  </data>
+  <data name="err_PostPermission" xml:space="preserve">
+    <value>You cannot create a new blog post.</value>
+  </data>
+  <data name="err_TagExists" xml:space="preserve">
+    <value>Tag already exists, please enter different one.</value>
+  </data>
+  <data name="FuzzySearchText" xml:space="preserve">
+    <value>Keyword, Title or Tag</value>
+  </data>
+  <data name="LegalAgreement" xml:space="preserve">
+    <value>&lt;h2&gt;&lt;strong&gt;BLOG DISCLAIMER&lt;/strong&gt;&lt;/h2&gt;
+This blog is provided by Century 21 Canada Limited Partnership (Century 21) as a convenience to our associates and our clients.
+&lt;br /&gt;
+&lt;strong&gt;Terms and Conditions of Use&lt;br /&gt;
+&lt;br /&gt;
+This site is not moderated by Century 21. You use this site at your own risk. Century 21 assumes no responsibility for the contents of or the accuracy of any posting on this site. If you do not agree with the foregoing, then you are prohibited from using this site. You agree that “use” or “using” includes but is not limited to reading, posting, copying forwarding, deleting, modifying or in any other way contributing to or utilizing this blog.
+&lt;br /&gt;
+If you utilize this blog in any way, you will only do so in accordance with the following terms and conditions:&lt;/strong&gt;
+&lt;br /&gt;&lt;br /&gt;
+(a) Century 21 Canada Limited Partnership (Century 21) is not responsible for the contents of any posting on this blog, except where the posting purports to be and actually is posted by Century 21. Except where the post is actually posted by Century 21, any opinions or alleged facts contained in any blog are opinions and facts being asserted by the author of the post and are not opinions or facts being belonging to Century 21.
+&lt;br /&gt;
+(b) This site is not moderated and accordingly, except as set out in paragraph (a) above, Century 21 has no responsibility for the contents of this blog.
+&lt;br /&gt;
+(c) Century 21 makes no representations as to accuracy, completeness, currentness, suitability, or validity of any information on this site and will not be liable for any errors, omissions, or delays in this information or any losses, injuries, or damages arising from its display or use. All information is provided on an as-is basis.
+&lt;br /&gt;
+(d) You will not post materials on this site that are not your property, which you do not have express permission to use for this purpose or which are not in the public domain.
+&lt;br /&gt;
+(e) You will not publish statements on this blog which may be defamatory.
+&lt;br /&gt;
+(f) You will not make comments on this blog which hold or may hold individuals up to ridicule or contempt or which discriminate against individuals because of their race, colour, ancestry, place of origin, religion, marital status, family status, physical or mental disability, sex, sexual orientation or age.
+&lt;br /&gt;
+(g) You will not publish threats or statements which may be perceived to be threatening to Century 21, its employees, affiliates or any other person.
+&lt;br /&gt;
+(h) Where you make statements containing personal information about a third party, in doing so you represent that you have the consent of that third party to disclose their personal information.
+&lt;br /&gt;
+(i) You will not use this blog to provide goods or services, except goods or services expressly sanctioned and endorsed by Century 21.
+&lt;br /&gt;
+(j) You will not publish information relating to illegal activities or to gambling.
+&lt;br /&gt;
+(k) You will not use language which is profane, obscene, obnoxious, insulting, or derogatory to third parties.
+&lt;br /&gt;
+(l) If you follow a link to a third party website which appears on this blog, you do so at your own risk. Century 21 takes no responsibility for the contents of any third party website or for any damage caused by that third party site.(l) You will notify Century 21 immediately if you discover information posted on this blog which violates these terms and conditions of use, which you consider to be an unauthorized use of your property or which otherwise you consider is or may be unlawful.
+&lt;br /&gt;
+(m) You agree that your use of this blog and the interpretation of these terms and conditions of use shall be interpreted in accordance with the laws of the Province
+of British Columbia, Canada and you attorn to the courts of the Province of British Columbia, Canada in the event that any dispute arises with regard to your use of this blog.
+&lt;br /&gt;
+(m) Facts and opinions expressed on this blog are the facts or opinions of the author and not those of Century 21, unless the fact or opinion is expressly stated to be the fact or opinion of Century 21 and which actually is a fact and opinion asserted by Century 21. Where facts or opinions expressed are those of Century 21, we may be mistaken. You agree to independently verify any fact set out by Century 21 or a third party before you rely on any facts or opinions set out in this blog in any way.
+&lt;br /&gt;
+(o) Century 21 may remove any content which, in its sole discretion, it considers to be contrary to these terms and conditions of use, or to be offensive or unlawful or which it, in its sole discretion, considers inappropriate for inclusion on this blog
+&lt;br /&gt;
+(p) You will notify legal@century21.ca if you find information on this site which is unlawful, proprietary, defamatory or contrary to these terms and conditions of use.
+While Century 21 will endeavour to remove post on this blog which are contrary to the terms and conditions of use, Century 21 does not warrant to do so and, except as set out herein, takes no responsibility whatsoever for the content of this blog.
+&lt;br /&gt;&lt;br /&gt;
+Century 21 grants you non-exclusive, non-transferrable, limited license to access, use and display the blog and the materials herein, provided that you comply fully with these terms and conditions of use.
+&lt;br /&gt;&lt;br /&gt;
+You grant Century 21 a non-exclusive, non-transferrable, limited license to post your comments on this blog, subject to these terms and conditions of use.</value>
+  </data>
+  <data name="MyBlog" xml:space="preserve">
+    <value>My Blog</value>
+  </data>
+  <data name="MyCompanyBlog" xml:space="preserve">
+    <value>My Company's Blog</value>
+  </data>
+  <data name="NewPost" xml:space="preserve">
+    <value>New Post</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="PostDate" xml:space="preserve">
+    <value>Post Date:</value>
+  </data>
+  <data name="Posted" xml:space="preserve">
+    <value>Posted</value>
+  </data>
+  <data name="PostFound" xml:space="preserve">
+    <value>Post Found</value>
+  </data>
+  <data name="PostingSaved" xml:space="preserve">
+    <value>Blog posting has been successfully saved.</value>
+  </data>
+  <data name="PostPreview" xml:space="preserve">
+    <value>Post Preview</value>
+  </data>
+  <data name="Posts" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="PostsFound" xml:space="preserve">
+    <value>Posts Found</value>
+  </data>
+  <data name="PostTitle" xml:space="preserve">
+    <value>Post Title</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="SaveAndPublish" xml:space="preserve">
+    <value>Save and Publish</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Submission</value>
+  </data>
+  <data name="SubmissionFound" xml:space="preserve">
+    <value>Submission Found</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Submissions</value>
+  </data>
+  <data name="SubmissionsFound" xml:space="preserve">
+    <value>Submissions Found</value>
+  </data>
+  <data name="SubmitedBy" xml:space="preserve">
+    <value>Submitted By</value>
+  </data>
+  <data name="SubmitTo" xml:space="preserve">
+    <value>Submit To</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="ManageTags" xml:space="preserve">
+    <value>Manage Tags</value>
+  </data>
+  <data name="PublishDeleteLink" xml:space="preserve">
+    <value>To publish or delete this blog post, click &lt;a href="{0}"&gt;here&lt;/a&gt;.</value>
+  </data>
+  <data name="SubmittedNewPost" xml:space="preserve">
+    <value>{0} submitted a new blog post.</value>
+  </data>
+  <data name="LastSavedOn" xml:space="preserve">
+    <value>Post last saved on ${0} at ${1}.</value>
+  </data>
+  <data name="AutoSaveError" xml:space="preserve">
+    <value>An error occurred while attempting to automatically save your post. Please try manually saving your post by clicking &lt;b&gt;Save&lt;/b&gt; above.</value>
+  </data>
+  <data name="AutoSaveThis" xml:space="preserve">
+    <value>Automatically save this blog post</value>
+  </data>
+  <data name="CommunityTags" xml:space="preserve">
+    <value>Community Tags</value>
+  </data>
+  <data name="LastSavedTodayAt" xml:space="preserve">
+    <value>Post last saved today at ${0}.</value>
+  </data>
+  <data name="EmailBlogging" xml:space="preserve">
+    <value>E-mail Blogging</value>
+  </data>
+  <data name="EmailBloggingInstructions1" xml:space="preserve">
+    <value>E-mail Blogging is a quick and easy way to write your blog posts on the go.  It’s as simple as writing an E-mail message and sending it to a special address.</value>
+  </data>
+  <data name="EmailBloggingInstructions2" xml:space="preserve">
+    <value>Enter the body of the post into the body of the E-mail and the title of the post into the subject line.  Send the E-mail to: blogs@century21.ca from your @century21.ca E-mail address - your blog post will be automatically created and posted to your website. Any attached images will be automatically added to your post.</value>
+  </data>
+  <data name="EmailBloggingInstructions3" xml:space="preserve">
+    <value>In order to protect your identity and ensure that only you can post to your blog, you will need to start the subject of your email with a PIN.  We’ve automatically selected one for you, but you can change it at any time.  To change your E-mail blog PIN, enter it and click Save.</value>
+  </data>
+  <data name="EmailBloggingPIN" xml:space="preserve">
+    <value>E-mail Blogging PIN</value>
+  </data>
+  <data name="EmailBloggingPreferences" xml:space="preserve">
+    <value>Blog Preferences</value>
+  </data>
+  <data name="EmailBloggingSaveSuccess" xml:space="preserve">
+    <value>Blog Preferences successfully saved.</value>
+  </data>
+  <data name="EmailBloggingValidationError" xml:space="preserve">
+    <value>The E-mail Blogging PIN is invalid (Must be a number between 0001 and 9999)</value>
+  </data>
+  <data name="CommunityPosts" xml:space="preserve">
+    <value>Community Posts</value>
+  </data>
+  <data name="CompanyPosts" xml:space="preserve">
+    <value>Company Posts</value>
+  </data>
+  <data name="PostType" xml:space="preserve">
+    <value>Post Type</value>
+  </data>
+  <data name="PostedTo" xml:space="preserve">
+    <value>Posted to</value>
+  </data>
+  <data name="WrittenByOn" xml:space="preserve">
+    <value>&lt;span class="blog-item-author-info"&gt;Written by ${0}&lt;/span&gt;&lt;span class="blog-item-posted-on"&gt; on ${1}&lt;/span&gt;</value>
+  </data>
+  <data name="NoBlogChosen" xml:space="preserve">
+    <value>No blog chosen</value>
+  </data>
+  <data name="TagDeleteConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete this tag? This will remove this tag from every blog post using the tag.  This action cannot be undone.</value>
+  </data>
+  <data name="TagDeleteSuccess" xml:space="preserve">
+    <value>Tag was successfully deleted</value>
+  </data>
+  <data name="TagUpdateSuccess" xml:space="preserve">
+    <value>Tag was successfully updated</value>
+  </data>
+  <data name="SearchAllTags" xml:space="preserve">
+    <value>Search your blog tags...</value>
+  </data>
+  <data name="TagManagerInstructions" xml:space="preserve">
+    <value>Warning. Changing or deleting any of your existing tags, listed below, will alter the tag in every blog post where it has been used previously.</value>
+  </data>
+  <data name="BackToBlogList" xml:space="preserve">
+    <value>Back to blog list</value>
+  </data>
+  <data name="PostContent" xml:space="preserve">
+    <value>Post Content</value>
+  </data>
+  <data name="PublishSettings" xml:space="preserve">
+    <value>Publish Settings</value>
+  </data>
+  <data name="EmailBloggingInstructions" xml:space="preserve">
+    <value>Email Blogging Instructions</value>
+  </data>
+  <data name="TaggerHelpText" xml:space="preserve">
+    <value>Enter a category for this post.  If the category doesn't already exist, click "add" to create it.</value>
+  </data>
+  <data name="BlogPostSearch" xml:space="preserve">
+    <value>Blog Post Search</value>
+  </data>
+  <data name="NoTagsFound" xml:space="preserve">
+    <value>No Tags Found</value>
+  </data>
+  <data name="TagManager" xml:space="preserve">
+    <value>Tag Manager</value>
+  </data>
+  <data name="BackToComments" xml:space="preserve">
+    <value>Back To Comments</value>
+  </data>
+  <data name="CommentSaved" xml:space="preserve">
+    <value>The comment has been successfully saved.</value>
+  </data>
+</root>
