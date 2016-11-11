@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/Nordth/dojo-webpack-loader-examples#readme",
   "dependencies": {
+    "dgrid": "^1.1.0",
+    "dijit": "^1.11.2",
     "dojo": "^1.11.2",
     "dojo-webpack-loader": "^0.9.1",
     "gulp": "^3.9.0",

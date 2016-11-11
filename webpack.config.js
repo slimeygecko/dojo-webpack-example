@@ -36,10 +36,10 @@ module.exports = {
     },
     resolve: {
       alias: {
-          "dojo": path.resolve(__dirname, './dojo/dojo'),
-          "dstore": path.resolve(__dirname, './dojo/dstore'),
-          "dijit": path.resolve(__dirname, './dojo/dijit'),
-          "dgrid": path.resolve(__dirname, './dojo/dgrid')
+          "dojo": path.resolve(__dirname, './node_modules/dojo'),
+          "dstore": path.resolve(__dirname, './node_modules/dojo/dstore'),
+          "dijit": path.resolve(__dirname, './node_modules/dojo/dijit'),
+          "dgrid": path.resolve(__dirname, './node_modules/dojo/dgrid')
       },
       root: [
         path.resolve(__dirname, './src'),
