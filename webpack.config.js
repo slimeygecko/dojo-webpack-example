@@ -27,7 +27,8 @@ module.exports = {
     entry: './src/dgrid_01_hello',
     resolveLoader: {
       alias: {
-        "dojo/text": 'raw-loader'
+        "dojo/text": 'raw-loader',
+        'resx-loader': path.join(__dirname, './resx-loader')
       },
       modulesDirectories: [
         path.resolve(__dirname, './node_modules/')
@@ -58,11 +59,10 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: "dojo-webpack-loader",
+            },
+            {
+              test: [/\.resx$/], loader: 'resx-loader'
             }
-            // ,
-            // {
-            //   test: [/\.xml$/, /\.resx$/], loader: 'xml-loader'
-            // }
         ]
     },
     output: {
