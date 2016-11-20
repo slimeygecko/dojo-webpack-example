@@ -1,38 +1,14 @@
 var webpack = require("webpack");
 var path = require("path");
-var DojoResolverPlugin = require("./resolver");
-
-// var entry_list = [
-//     "dojo_01_animation",
-//     "dojo_02_topic",
-//     "dojo_03_keyboard",
-//     "dojo_04_request",
-//     "dijit_01_key_nav",
-//     "dijit_02_layout",
-//     "dijit_03_form",
-//     "dijit_04_menus",
-//     "dijit_05_templated",
-//     "dgrid_01_hello",
-//     "dgrid_02_stores",
-//     "dgrid_03_col_set",
-//     "dgrid_04_comp_col",
-//     "dgrid_05_single_query",
-//     "dgrid_06_summary_row",
-//     "dgrid_07_dropdown"
-// ];
-// var entry = {};
-// entry_list.forEach(function(e) { entry[e] = path.resolve(__dirname, "./src/" + e) });
 
 module.exports = {
     entry: './src/dgrid_01_hello',
     resolveLoader: {
       alias: {
-        "dojo/text": 'raw-loader',
-        'resx-loader': path.join(__dirname, './resx-loader')
+        "dojo/text": 'raw-loader'
       },
       modulesDirectories: [
         path.resolve(__dirname, './node_modules/')
-        // path.resolve(__dirname, './dojo')
       ]
     },
     resolve: {
@@ -48,11 +24,10 @@ module.exports = {
     },
     devtool: 'source-map',
     plugins: [
-        new webpack.NormalModuleReplacementPlugin(/wtl\/nls/, function(result) {
-          // wtl/nls!resourceFile,resourceFile2   =>   ../src/wtl/nls?resourceFile,resourceFile2
+        new webpack.NormalModuleReplacementPlugin(/util\/nls/, function(result) {
+          // util/nls!resourceFile,resourceFile2   =>   ../src/util/nls?resourceFile,resourceFile2
           result.request = '../src/' + result.request.replace('!', '?')
         })
-        // new webpack.BannerPlugin('ENTRY: ', { entryOnly: true })
     ],
     module: {
         loaders: [
@@ -61,7 +36,7 @@ module.exports = {
                 loader: "dojo-webpack-loader",
             },
             {
-              test: [/\.resx$/], loader: 'resx-loader'
+              test: [/\.resx$/], loader: 'resx-webpack-loader'
             }
         ]
     },

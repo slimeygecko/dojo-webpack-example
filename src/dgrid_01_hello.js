@@ -3,15 +3,22 @@ var declare = require('dojo/_base/declare');
 var Grid = require('dgrid/Grid');
 var Keyboard = require('dgrid/Keyboard');
 var Selection = require('dgrid/Selection');
-// var test = require('dojo/has!touch?./dojo/util/touch');
-var text = require('wtl/nls!ActivityCenter,Blog');
+
+
+
+/****** look in the console for json ******/
+var text = require('util/nls!resource1,resource2');
+console.log(text);
+
+
+
+/****** the rest of the dgrid example code ******/
 
 var data = [
     { first: 'Bob', last: 'Barker', age: 89 },
     { first: 'Vanna', last: 'White', age: 55 },
     { first: 'Pat', last: 'Sajak', age: 65 }
 ];
-console.log(text)
 
 // Create a new constructor by mixing in the components
 var CustomGrid = declare([ Grid, Keyboard, Selection ]);
