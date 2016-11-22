@@ -1,3 +1,3 @@
-# dojo-webpack-resolver
+# dojo-webpack-example
 
-This is an advanced example of webpack and dojo-webpack-loader.
+This is an example of using dojo with webpack, the dojo-webpack-loader and resx-webpack-loader.
