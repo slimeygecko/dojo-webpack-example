@@ -1,3 +1,3 @@
 # dojo-webpack-example
 
-This is an example of using dojo with webpack, the dojo-webpack-loader and resx-webpack-loader.
+Example project on how to move a dojo application using dojo's build process to webpack utilizing dojo-webpack-loader and resx-webpack-loader.
