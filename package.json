@@ -6,6 +6,10 @@
   "repository": "https://github.com/slimeygecko/dojo-webpack-example.git",
   "author": "Mike Woodward, @slimeygecko",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha ./test/test",
+    "test:watch": "mocha ./test/test --watch"
+  },
   "bugs": {
     "url": "https://github.com/slimeygecko/dojo-webpack-example/issues"
   },
@@ -23,10 +27,14 @@
     "dijit": "^1.11.2",
     "dojo": "^1.11.2",
     "dojo-webpack-loader": "^0.9.1",
+    "domready": "^1.0.8",
     "dstore": "^0.6.22",
     "gulp": "^3.9.0",
     "raw-loader": "^0.5.1",
     "resx-webpack-loader": "^0.1.0",
     "webpack": "^1.12.15"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }

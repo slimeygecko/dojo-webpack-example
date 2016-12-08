@@ -5,7 +5,8 @@ module.exports = {
     entry: './src/dgrid_01_hello',
     resolveLoader: {
       alias: {
-        "dojo/text": 'raw-loader'
+        "dojo/text": 'raw-loader',
+        'domReadyLoader': path.resolve(__dirname, './src/util/domReady')
       },
       modulesDirectories: [
         path.resolve(__dirname, './node_modules/')
@@ -24,16 +25,17 @@ module.exports = {
     },
     devtool: 'source-map',
     plugins: [
-        new webpack.NormalModuleReplacementPlugin(/util\/nls/, function(result) {
-          // util/nls!resourceFile,resourceFile2   =>   ../src/util/nls?resourceFile,resourceFile2
-          result.request = '../src/' + result.request.replace('!', '?')
-        })
+      //this is used along with the resolveLoader alias to 'dojo/text' to load the nls files
+      new webpack.NormalModuleReplacementPlugin(/util\/nls/, function(result) {
+        // util/nls!resourceFile,resourceFile2   =>   ../src/util/nls?resourceFile,resourceFile2
+        result.request = '../src/' + result.request.replace('!', '?')
+      })
     ],
     module: {
         loaders: [
             {
                 test: /\.js$/,
-                loader: "dojo-webpack-loader",
+                loaders: ["dojo-webpack-loader", 'domReadyLoader']
             },
             {
               test: [/\.resx$/], loader: 'resx-webpack-loader'

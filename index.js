@@ -8,12 +8,10 @@ var webpackConfig = require(path.resolve(__dirname, 'webpack.config'));
 
 gulp.task("webpack-build", function (callback) {
     webpack(webpackConfig).run(function (err, stats) {
+      if (err)
         console.error(err);
-//        if (err) throw new gutil.PluginError("webpack:build-dev", err);
-//        gutil.log("[webpack:build-dev]", stats.toString({
-//            colors: true
-//        }));
-        callback();
+
+      callback();
     });
 });
 

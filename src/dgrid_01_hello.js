@@ -37,3 +37,10 @@ var grid = new CustomGrid({
     cellNavigation: false
 }, 'grid');
 grid.renderArray(data);
+
+/****** check the console for domReady! test results ******/
+require('domready')(function() {
+    console.log('test that prints AFTER dom is ready');
+});
+require(['util/testModule'], function(testModule) {});
+console.log('test that prints BEFORE dom is ready');
